@@ -1,0 +1,83 @@
+* {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/money.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 370px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lotto {
+  width: 370px;
+  text-align: center;
+}
+
+.lotto h1 {
+  text-indent: -9999px;
+  width: 370px;
+  height: 110px;
+  margin-bottom: 30px;
+  background: url(../images/lottotext.png) no-repeat;
+  background-size: cover;  
+  align-items: center;
+}
+
+.numbers {
+width: 370px;
+height: 70px;
+border: 1px solid rgb(138, 137, 126);
+background-color: white;
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.eachnum {
+  font-size: 0.9rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px rgb(218, 218, 218);
+}
+
+button {
+box-sizing: border-box;
+border: 1px solid #ff5257;
+margin-top: 30px;
+font-size: 0.7rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 370px;
+height: 60px;
+border-radius: 6px;
+color: white;
+background-color: #ff7979;
+cursor: pointer;
+}
+
+button:active {
+  font-size: 0.6rem;
+  width: 360px;
+  height: 60px;
+}
+
+#reset {
+  margin-top: 20px;
+}
